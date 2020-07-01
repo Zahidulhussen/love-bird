@@ -1,8 +1,15 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color:dimgray;
 }
 .name-highlight{
     color: green;
@@ -15,4 +22,66 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.header-bg{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, blue,cyan);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.latest-area{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    background-position: left;
+
+}
+.latest-area img{
+   
+    width:33%;
+    margin: 1% 0;
+    float: left;
+
+}
+.mlw{
+    text-align: center;
+    padding: 70px 0;
+}
+.client{
+    text-align: center;
+
+}
+.ending{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.finishing{
+    text-decoration: none;
+    background-color: cyan;
+    padding: 50px 5px 30px 30px;
+    margin: 150px 80px 60px 80px;
+    border-radius: 10px;
+    color:black ;
+    font-weight: 920;
+   
+
 }
